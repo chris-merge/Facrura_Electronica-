@@ -1,0 +1,131 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 27 sept 2024, 18:59:15
+    Author     : Gerardo
+*/
+body {
+      font-family: Arial, sans-serif;
+    }
+    .factura-container {
+      width: 800px;
+      margin: 50px auto; 
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .factura-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .factura-container form {
+      margin-top: 20px;
+    }
+    .factura-container label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .factura-container input[type="text"], .factura-container input[type="number"], .factura-container input[type="date"] {
+      width: 75%; /* cambia lo ancho del textbox */
+      height: 35px;  /*cambia lo alto del textbox */
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .factura-container select {
+      width: 100%;
+      height: 40px;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .factura-container table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    .factura-container th, .factura-container td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    .factura-container th {
+      background-color: #f0f0f0;
+    }
+     .cerrar-sesion {
+      background-color: #ff0000;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+    .cerrar-sesion:hover {
+      background-color: #cc0000;
+    }
+#myTable {
+  margin: 1%;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  #myTable {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+.factura-container-v3 {
+      width: 950px;
+      margin: 5px auto; 
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.factura-container-v3 h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .factura-container-v3 form {
+      margin-top: 20px;
+    }
+    .factura-container-v3 label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .factura-container-v3 input[type="text"], .factura-container-v3 input[type="number"], .factura-container-v3 input[type="date"] {
+      width: 75%; /* cambia lo ancho del textbox */
+      height: 35px;  /*cambia lo alto del textbox */
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .factura-container-v3 select {
+      width: 100%;
+      height: 40px;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .factura-container-v3 table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    .factura-container-v3 th, .factura-container td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    .factura-container-v3 th {
+      background-color: #f0f0f0;
+    }
+    
